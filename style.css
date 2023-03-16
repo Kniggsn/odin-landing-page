@@ -1,0 +1,45 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header, .introduction-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+header > section{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    width: 1000px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 0 32px;
+}
+
+
+
+.header-links {
+    display: flex;
+    gap: 16px;
+
+}
+
+.link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
